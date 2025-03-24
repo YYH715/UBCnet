@@ -75,3 +75,6 @@ python main.py --test
 ![image](https://github.com/user-attachments/assets/46e051c7-776a-4a7d-88a4-eddd0397c742)
 
 ![image](https://github.com/user-attachments/assets/53b59c1d-71b8-4edf-8bbc-44935e7157e0)
+
+## License
+This project is licensed under the [MIT license](https://github.com/YYH715/UBCnet/blob/main/LICENSE)
