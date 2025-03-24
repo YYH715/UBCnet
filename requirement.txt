@@ -1,0 +1,13 @@
+python >= 3.6
+PyTorch >= 1.8.0
+CUDA == 11.8
+easydict
+opencv-python
+transform3d
+h5py
+timm
+open3d
+tensorboardX
+ninja == 1.11.1
+torch-scatter
+einops
