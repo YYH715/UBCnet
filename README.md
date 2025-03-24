@@ -44,8 +44,7 @@ python setup.py install
 ```bash
 cat ShapeNetViPC-Dataset.tar.gz* | tar zx
 ```
-- 
-Then, you will get 'ShapeNetViPC-Partial', 'ShapeNetViPC-GT' and 'ShapeNetViPC-View'. Use the code in tool/dataloader.py to load the dataset.
+- Then, you will get 'ShapeNetViPC-Partial', 'ShapeNetViPC-GT' and 'ShapeNetViPC-View'. Use the code in tool/dataloader.py to load the dataset.
 
 ### Running
 ```bash
@@ -61,10 +60,15 @@ python main.py --test
 
 ## Results
 ### Results on ViPC-ShapeNet
+- Quantitative results on ShapeNet-ViPC dataset:
+![image](https://github.com/user-attachments/assets/a0d86466-480e-45b3-a302-740be2613547)
+![image](https://github.com/user-attachments/assets/ccc8274a-c2b1-45fb-8b56-3e184ed480be)
 
+- Qualitative results on ShapeNet-ViPC dataset:
 ![image](https://github.com/user-attachments/assets/bf3a3b73-065a-48d9-8d5a-4839767ee729)
 
 ### Results on our IoT datasets
+- To further validate the applicability and robustness of the proposed method in real-world IoT scenarios, we constructed a small-scale dataset based on five representative IoT objects. During the point cloud generation process, we deliberately introduced partial occlusions or blind spots to simulate the common local occlusions and missing regions encountered in real-world IoT deployments to better reflect the complexity of real application scenarios. The dataset includes both regular objects with relatively simple appearances, such as square packaging boxes and cylindrical bottles, and irregular components with detailed structural features, such as circuit breakers and metal ventilation grilles.
 
 ![image](https://github.com/user-attachments/assets/46e051c7-776a-4a7d-88a4-eddd0397c742)
 
