@@ -19,7 +19,26 @@ To address this, we propose a cross-modal completion framework for integrating v
 ```bash
 pip install -r requirement.txt
 ```
-
+- Install Chamer Distance:
+```bash
+cd ../../metrics/CD/chamfer3D/
+python setup.py install
+```
+- Install Eeath Movers' Distance:
+```bash
+cd ../metrics/EMD/
+python setup.py install
+```
+- Install PointNet++ utils:
+```bash
+cd /models/pointnet2_batch/
+python setup.py install
+```
+- Install Furthest Point Sampling:
+```bash
+cd ../../tool/furthestPointSampling/
+python setup.py install
+```
 ## Results
 ### Results on ViPC-ShapeNet
 
