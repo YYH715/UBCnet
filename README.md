@@ -44,8 +44,8 @@ python setup.py install
 ```bash
 cat ShapeNetViPC-Dataset.tar.gz* | tar zx
 ```
-- Then, you will get 'ShapeNetViPC-Partial', 'ShapeNetViPC-GT' and 'ShapeNetViPC-View'. Use the code in tool/dataloader.py to load the dataset.
-
+- Then, you will get `ShapeNetViPC-Partial`, `ShapeNetViPC-GT` and `ShapeNetViPC-View`. Use the code in tool/dataloader.py to load the dataset.
+  
 ### Running
 ```bash
 # Training
@@ -61,10 +61,12 @@ python main.py --test
 ## Results
 ### Results on ViPC-ShapeNet
 - Quantitative results on ShapeNet-ViPC dataset:
+
 ![image](https://github.com/user-attachments/assets/a0d86466-480e-45b3-a302-740be2613547)
 ![image](https://github.com/user-attachments/assets/ccc8274a-c2b1-45fb-8b56-3e184ed480be)
 
 - Qualitative results on ShapeNet-ViPC dataset:
+  
 ![image](https://github.com/user-attachments/assets/bf3a3b73-065a-48d9-8d5a-4839767ee729)
 
 ### Results on our IoT datasets
