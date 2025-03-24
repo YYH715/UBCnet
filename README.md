@@ -3,7 +3,8 @@ This is the official source code for the work, UBCnet: View-Guided Point Cloud C
 ## Background
 In IoT scenarios, due to sensor viewing Angle limitation, occlusion, noise and other reasons, point cloud data is generally missing and sparse and uneven in a wide range, which directly leads to a decline in the accuracy of pose estimation, robot grasping and subsequent tasks.
 
-![image](https://github.com/user-attachments/assets/7d7fa4c0-2143-4da5-94ae-5f75e3b8d481)
+![image](https://github.com/user-attachments/assets/ee21d4ce-0757-4051-a3ab-9a70e937308c)
+
 
 
 ## Introduction
