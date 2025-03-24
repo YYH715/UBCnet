@@ -39,6 +39,26 @@ python setup.py install
 cd ../../tool/furthestPointSampling/
 python setup.py install
 ```
+### Dataset
+- Download the [ShapeNet-ViPC dataset](https://pan.baidu.com/share/init?surl=NJKPiOsfRsDfYDU_5MH28A)(code: ar8l) and unzip it:
+```bash
+cat ShapeNetViPC-Dataset.tar.gz* | tar zx
+```
+- 
+Then, you will get 'ShapeNetViPC-Partial', 'ShapeNetViPC-GT' and 'ShapeNetViPC-View'. Use the code in tool/dataloader.py to load the dataset.
+
+### Running
+```bash
+# Training
+python main.py
+
+# Evaluation
+# Specify the checkpoint path in Config.py
+__C.CONST.WEIGHTS = "path to your checkpoint"
+
+python main.py --test
+```
+
 ## Results
 ### Results on ViPC-ShapeNet
 
