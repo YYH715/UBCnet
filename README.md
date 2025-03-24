@@ -13,9 +13,12 @@ To address this, we propose a cross-modal completion framework for integrating v
 ![image](https://github.com/user-attachments/assets/69560454-6834-496a-a7a3-ab31f1061d08)
 
 ## Installation
-- Install CUDA 11.8 
-- Set up python environment from requirement.txt:
+- Install CUDA 11.8
 
+- Set up python environment from requirement.txt:
+```bash
+pip install -r requirement.txt
+```
 
 ## Results
 ### Results on ViPC-ShapeNet
