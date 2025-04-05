@@ -1,4 +1,4 @@
-# UBCnet：View-Guided Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
+# UBCnet：Dual-Interactive Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
 This is the official source code for the work, UBCnet: View-Guided Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
 ## Background
 In dynamic 3D scene reconstruction, 3D point clouds collected by sensors often suffer from extensive missing data and uneven sparsity due to factors such as occlusion, limited viewpoints, motion blur, and noise. This presents significant challenges in meeting the accuracy requirements of applications such as intelligent manufacturing and autonomous driving.
@@ -69,12 +69,16 @@ python main.py --test
   
 ![image](https://github.com/user-attachments/assets/bf3a3b73-065a-48d9-8d5a-4839767ee729)
 
-### Results on our IoT datasets
-- To further validate the applicability and robustness of the proposed method in real-world IoT scenarios, we constructed a small-scale dataset based on five representative IoT objects. During the point cloud generation process, we deliberately introduced partial occlusions or blind spots to simulate the common local occlusions and missing regions encountered in real-world IoT deployments to better reflect the complexity of real application scenarios. The dataset includes both regular objects with relatively simple appearances, such as square packaging boxes and cylindrical bottles, and irregular components with detailed structural features, such as circuit breakers and metal ventilation grilles.
+### Results on our real-world datasets
+- To further validate the applicability and robustness of the proposed method in real-world scenarios, we constructed a small-scale dataset based on five representative IoT objects. During the point cloud generation process, we deliberately introduced partial occlusions or blind spots to simulate the common local occlusions and missing regions encountered in real-world deployments to better reflect the complexity of real application scenarios. The dataset includes both regular objects with relatively simple appearances, such as square packaging boxes and cylindrical bottles, and irregular components with detailed structural features, such as circuit breakers and metal ventilation grilles.
 
 ![image](https://github.com/user-attachments/assets/46e051c7-776a-4a7d-88a4-eddd0397c742)
 
+- Quantitative results on our real-world dataset:
 ![image](https://github.com/user-attachments/assets/53b59c1d-71b8-4edf-8bbc-44935e7157e0)
+
+- Qualitative results on our real-world dataset:
+![image](https://github.com/user-attachments/assets/f4a6bdf5-e07e-4344-8e3f-dbf9b9542964)
 
 ## License
 This project is licensed under the [MIT license](https://github.com/YYH715/UBCnet/blob/main/LICENSE)
