@@ -1,5 +1,5 @@
 # UBCnet：Dual-Interactive Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
-This is the official source code for the work, UBCnet: View-Guided Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
+This is the official source code for the work, UBCnet: Dual-Interactive Point Cloud Completion Network with Unified Multimodal Encoding and Bilateral Complementary Fusion
 ## Background
 In dynamic 3D scene reconstruction, 3D point clouds collected by sensors often suffer from extensive missing data and uneven sparsity due to factors such as occlusion, limited viewpoints, motion blur, and noise. This presents significant challenges in meeting the accuracy requirements of applications such as intelligent manufacturing and autonomous driving.
 
