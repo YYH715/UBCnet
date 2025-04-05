@@ -74,10 +74,10 @@ python main.py --test
 
 ![image](https://github.com/user-attachments/assets/46e051c7-776a-4a7d-88a4-eddd0397c742)
 
-- Quantitative results on our real-world dataset:
+- Qualitative results on our real-world dataset:
 ![image](https://github.com/user-attachments/assets/53b59c1d-71b8-4edf-8bbc-44935e7157e0)
 
-- Qualitative results on our real-world dataset:
+- Quantitative results on our real-world dataset:
 ![image](https://github.com/user-attachments/assets/f4a6bdf5-e07e-4344-8e3f-dbf9b9542964)
 
 ## License
